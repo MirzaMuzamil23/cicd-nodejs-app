@@ -5,7 +5,7 @@ const port = 8080
 
 app.get("/" , (req,res) => {
     return res.json({
-        msg: "Hello From Server V1"
+        msg: "Hello From Server"
     })
 })
 
